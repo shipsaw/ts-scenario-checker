@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{0ECB5B28-3851-4624-ADA0-1274E04DB732}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C6120FEF-46F3-4FBB-828C-9720166D4769} = {C6120FEF-46F3-4FBB-828C-9720166D4769}
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Scenario", "Scenario\Scenario.fsproj", "{C6120FEF-46F3-4FBB-828C-9720166D4769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ECB5B28-3851-4624-ADA0-1274E04DB732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECB5B28-3851-4624-ADA0-1274E04DB732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECB5B28-3851-4624-ADA0-1274E04DB732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECB5B28-3851-4624-ADA0-1274E04DB732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6120FEF-46F3-4FBB-828C-9720166D4769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6120FEF-46F3-4FBB-828C-9720166D4769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6120FEF-46F3-4FBB-828C-9720166D4769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6120FEF-46F3-4FBB-828C-9720166D4769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B256FAC-4B97-4450-9367-99AFFC341745}
+	EndGlobalSection
+EndGlobal
