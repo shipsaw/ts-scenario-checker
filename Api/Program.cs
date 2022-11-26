@@ -33,7 +33,7 @@ app.MapPost("/getXml",
         return Results.Text(text);
     });
 
-app.MapPost("/getXmlSimple",
+app.MapPost("/getVehicles",
     async Task<IResult>(HttpRequest request) =>
     {
         if (!request.HasFormContentType)
@@ -52,7 +52,6 @@ app.MapPost("/getXmlSimple",
             .WithStandardOutputPipe(PipeTarget.ToStringBuilder(outputBuffer))
             .ExecuteBufferedAsync();
 
-        Console.WriteLine(outputBuffer.Length);
         var text = XmlToJson.getScenarioObjects(outputBuffer.ToString());
         stream.Close();
 
